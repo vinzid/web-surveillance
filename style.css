@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.switch {
+  margin: 10px;
+}
+.none {
+  display: none!important;
+}
+button {
+  position: relative;
+  z-index: 999;
+  float: right;
+  margin: 10px;
+  font-size: 20px;
+}
+video {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.videoWrap {
+  position: relative;
+}
+.controls {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 999;
+}
+.range {
+  width: 97%;
+  display: block;
+  margin: 0 auto;
+}
